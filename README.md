@@ -4,6 +4,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+![](./qr-code-component.thuanowa.com_.png)
+
 ### Links
 
 - Solution URL: https://github.com/thuanowa/qr-code-component
