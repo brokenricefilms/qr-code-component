@@ -4,25 +4,26 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-### Screenshot
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: https://github.com/thuanowa/qr-code-component
+- Live Site URL: http://qr-code-component.thuanowa.com
 
 ### Built with
 
+- Astro.build
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- Grid
 
 ### What I learned
 
+- CSS nested border radius
+
 ### Useful resources
+
+- https://www.30secondsofcode.org/articles/s/css-nested-border-radius/
 
 ### Future
 

@@ -1,0 +1,83 @@
+---
+import "@fontsource/outfit";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <title>Frontend Mentor | QR code component</title>
+  </head>
+  <body>
+    <div id="box">
+      <div id="qr">
+        <img src="./image-qr-code.png" alt="qr code" />
+      </div>
+      <div id="text">
+        <h1>Improve your font-end skill by building projects</h1>
+        <h2>
+          Scan the QR code to visit Frontend Mentor and take yuour coding skill
+          to the next level
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  /* https://www.30secondsofcode.org/articles/s/css-nested-border-radius/ */
+  body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.75rem;
+    background-color: #d5e1ef;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+  }
+
+  #box {
+    width: calc(576px + 40px);
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  #qr {
+    margin-top: 20px;
+  }
+
+  #qr > img {
+    border-radius: calc(30px - 20px);
+  }
+
+  #text {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222e47;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #919297;
+  }
+</style>
