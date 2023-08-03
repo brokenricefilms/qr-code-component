@@ -12,7 +12,7 @@
   "dependencies": {
     "@fontsource/outfit": "^4.5.11",
     "add": "^2.0.6",
-    "astro": "^2.3.1",
-    "astro-compress": "^1.1.39"
+    "astro": "^2.9.7",
+    "astro-compress": "^1.1.50"
   }
 }
